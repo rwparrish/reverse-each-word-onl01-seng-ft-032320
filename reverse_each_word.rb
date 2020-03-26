@@ -11,4 +11,7 @@ def reverse_each_word_c(sen)
   arr = sen.split(" ")
   temp_arr = []
   arr.collect do |sen|
-    temp_arr
+    temp_arr << sen.reverse
+  end
+  temp_arr.join(" ")
+end
