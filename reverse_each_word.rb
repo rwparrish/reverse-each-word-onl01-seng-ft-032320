@@ -7,3 +7,8 @@ def reverse_each_word(sentence)
   new_arr.join(" ")
 end
 
+def reverse_each_word_c(sen)
+  arr = sen.split(" ")
+  temp_arr = []
+  arr.collect do |sen|
+    temp_arr
